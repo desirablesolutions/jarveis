@@ -1,6 +1,6 @@
 export default function NavBar() {
     return (
-        <section className="overflow-hidden">
+        <section className="overflow-hidden backdrop-blur-sm  fixed w-full z-50 top-0">
             <div className="relative px-6 lg:px-12 bg-blueGray-50">
                 <div className="hidden xl:block absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 2xl:w-full 2xl:max-w-sm">
                     <div className="flex py-4 px-6 items-center rounded-3xl bg-white border-2 border-blueGray-100">

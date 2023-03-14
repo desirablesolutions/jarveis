@@ -1,12 +1,18 @@
 ---
-import NavBar from "@includes/dynamic/NavBar"
+import "@libs/globals.css";
+import NavBar from "@includes/dynamic/NavBar";
+import Footer from "@includes/dynamic/Footer";
+import AstroGap from "astro-gap";
+import Meta from "@includes/static/Meta/Meta.astro";
 ---
-
 
 <!DOCTYPE html>
 <html>
-    <body>
-        <NavBar/>
-        <slot/>
-    </body>
+  <Meta />
+  <body class="font-mono">
+    <NavBar />
+    <AstroGap spaces={10} />
+    <slot />
+    <Footer />
+  </body>
 </html>
